@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.box {
+	height: auto;
+	background: #fff;
+}
+
+/*CLASSE ESTILO - estiliza todas as divs da página com borda redonda e com sombreamento*/
+.estilo {
+	margin-top: 10px;
+	border-radius: 5px;
+	box-shadow: #999 0px 0px 1px 1px;
+	color: #fff;
+}
+
+.titulo {
+	height: 100px;
+	text-align: center;
+	margin-top: 10px;
+	background: #7a1818;
+	
+}
+
+.titulo a {
+	color: #fff;
+	
+}
+
+.titulo a:hover {
+	color: #fff;
+	
+}
+/*-------------------MENU-------------------*/
+
+.menu ul{
+	text-align: center;
+	padding:0px;
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none;
+}
+
+.menu ul li { 
+	display: inline; 
+}
+
+.menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+
+    /* ESTILO DO LINK */
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+
+.menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+}
+/*-------------------MENU-------------------*/
+
+.introducao {
+	height: auto;
+	text-align: center;
+	background: #7a1818;
+}
+
+.textoIntroducao {
+	text-align: justify;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+.imagemIntroducao {
+	height: 460px;
+	background-image: url('../imagens/imagemIntroducao.png');
+	background-repeat: no-repeat;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.imagemIntroducao2 {
+	height: 370px;
+	background-image: url('../imagens/imagemIntroducao2.png');
+	background-repeat: no-repeat;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 0px;
+}
+
+.rodape{
+	background: #7a1818;
+	height: auto;	
+}
+
+.textoRodape {
+	text-align: right;
+	margin-right: 10px;
+	color: #F5F5F5;
+}
+
+/*------------------------------------------------------------*/
+
+.texto1 {
+	height: auto;
+	background: #7a1818;
+	text-align: center;
+}
+
+.leucocitos {
+	float: left;
+	text-align: left;
+	margin-left: 5px;
+}
+
+.textoLeucocitos {
+	text-align: left;
+	margin-left: 5px;
+}
